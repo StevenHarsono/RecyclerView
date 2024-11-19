@@ -19,9 +19,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
         android:text="namaWayang"
         app:layout_constraintStart_toEndOf="@+id/gambarWayang"
-        tools:layout_editor_absoluteY="32dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/karakterWayang"
